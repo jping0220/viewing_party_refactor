@@ -1,7 +1,8 @@
 class Person:
-    def __init__(self, name, friends):
+    def __init__(self, name, age=0): #defaul:age=0
         self.name = name
-        self.friends = friends
+        self.age = age
+        self.friends = []
         self.watchlist = []
         self.watched_movies = []
     
